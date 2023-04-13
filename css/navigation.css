@@ -1,0 +1,89 @@
+:root {
+  --dark-grey: #1e2125;
+  --light-white: #eeeeee;
+  --light-white2: #fafafa;
+  --dark--blue: #38569f;
+  --dark-blue2: #38569f;
+  --light-blue: #17bed2;
+  --light-blue2: #4682b4;
+  --light-blue3: #4586ff;
+  --light-blue4: #00adb5;
+  --dark-yellow: #ff6600;
+  --light-yellow: #f9a743;
+  --dark-yellow2: #e6840e;
+  --light-green: #30be72;
+}
+
+/* ------------------------------------------- navigatoin bullets vertibal -------------------------------------------------------- */ 
+@media (min-width: 768.98px) {
+  .page__pagination {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translate(50px, -50px);
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page__bullet {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    margin: 12px 24px 0px 0px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease 0s;
+  }
+}
+
+@media (max-width: 767px) {
+  .page__bullet {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    margin: 12px 2px 0px 0px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease 0s;
+  }
+}
+.page__bullet_active {
+  transform: scale(1.3);
+  background-color: rgba(31, 29, 29, 0);
+  border: 1px solid #fff;
+}
+/* --------------------------------------------------------------------------------------------------- */ 
+/* ------------------------------------------- navigatoin buttons horizontal -------------------------------------------------------- */ 
+@media (min-width: 767px) {
+  .wrapper._loaded .swiper-button-prev,
+  .wrapper._loaded .swiper-button-next {
+    margin: 220px 200px;
+    color: #fff;
+    font-size: 60px;
+    transform: translate(0, -80px);
+    transition: transform 5.6s ease 0.8s;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+     font-size: 60px;
+  }
+}
+
+ @media (max-width: 767px) {
+  .wrapper._loaded .swiper-button-prev,
+  .wrapper._loaded .swiper-button-next {
+    margin: 220px 240px;
+    color: #fff;
+    font-size: 44px;
+    transform: translate(0, -100px);
+    transition: transform 3.6s ease 0.8s;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+font-size: 44px;
+  }
+ }
+
+/* --------------------------------------------------------------------------------------------------- */
