@@ -1,5 +1,5 @@
 ### All Photos in
-![img](https://raw.githubusercontent.com/papchenko/10page/1ae53727e38d1903eab97238127f67111337619f/resources/10page-logo.svg)
+![img](https://raw.githubusercontent.com/papchenko/10page.github.io/ed4aa76c151d167923a12eb54779e21c2cf42ff3/resources/10page-logo.svg)
 
 #### All Photos by Slide!
 ```
